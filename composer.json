@@ -1,6 +1,6 @@
 {
-    "name": "mahdiaslami/laravel-fa-lang",
-    "description": "Persian translations for Laravel lang directory.",
+    "name": "mahdiaslami/laravel-env",
+    "description": "Artisan commands for manipulating .env file.",
     "license": "MIT",
     "autoload": {
         "psr-4": {
