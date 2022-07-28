@@ -3,8 +3,8 @@
 namespace MahdiAslami\Laravel\Env;
 
 use Illuminate\Support\ServiceProvider as SupportServiceProvider;
-use MahdiAslami\Laravel\Env\Commands\EnvGenerate;
-use MahdiAslami\Laravel\Env\Commands\EnvUpdate;
+use MahdiAslami\Laravel\Env\Commands\Generate;
+use MahdiAslami\Laravel\Env\Commands\Update;
 
 class ServiceProvider extends SupportServiceProvider
 {
@@ -17,8 +17,8 @@ class ServiceProvider extends SupportServiceProvider
     {
         if ($this->app->runningInConsole()) {
             $this->commands([
-                EnvGenerate::class,
-                EnvUpdate::class,
+                Generate::class,
+                Update::class,
             ]);
           }
     }

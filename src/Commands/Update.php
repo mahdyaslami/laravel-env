@@ -6,7 +6,7 @@ use Exception;
 use Illuminate\Console\Command;
 use MahdiAslami\Laravel\Env\Env;
 
-class EnvUpdate extends Command
+class Update extends Command
 {
     /**
      * The name and signature of the console command.
