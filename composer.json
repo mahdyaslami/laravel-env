@@ -16,7 +16,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Mahdiaslami\\Laravel\\Env\\ServiceProvider"
+                "MahdiAslami\\Laravel\\Env\\ServiceProvider"
             ]
         }
     },
