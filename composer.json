@@ -4,7 +4,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Mahdiaslami\\Laravel\\Env\\": "src/"
+            "MahdiAslami\\Laravel\\Env\\": "src/"
         }
     },
     "authors": [
@@ -22,6 +22,12 @@
     },
     "minimum-stability": "dev",
     "require-dev": {
-        "laravel/framework": "^9.21.0"
+        "laravel/framework": "^9.21.0",
+        "orchestra/testbench": "^7.6.0"
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "@php ./vendor/bin/testbench package:discover --ansi"
+        ]
     }
 }

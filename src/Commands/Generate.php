@@ -6,7 +6,7 @@ use Exception;
 use Illuminate\Console\Command;
 use MahdiAslami\Laravel\Env\Env;
 
-class EnvGenerate extends Command
+class Generate extends Command
 {
     /**
      * The name and signature of the console command.
