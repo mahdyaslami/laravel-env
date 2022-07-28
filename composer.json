@@ -1,0 +1,27 @@
+{
+    "name": "mahdiaslami/laravel-env",
+    "description": "Artisan commands for manipulating .env file.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mahdiaslami\\Laravel\\Env\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mahdi Aslami Khavari",
+            "email": "mahdyaslami@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mahdiaslami\\Laravel\\Env\\ServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require-dev": {
+        "laravel/framework": "^9.21.0"
+    }
+}
